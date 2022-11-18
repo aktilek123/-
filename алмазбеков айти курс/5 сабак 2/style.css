@@ -1,0 +1,46 @@
+body {
+    background-color: greenyellow;
+    margin: 0;
+    padding: 0;
+    height: 600px;
+
+
+}
+img {
+    width: 150px;
+    border: 3px solid rebeccapurple;
+    border-radius: 20px 0px 20px 0px;
+}
+h2{
+    color: black;
+}
+b{
+    color: brown;
+    font-weight: bold;
+}
+.aktilek{
+    flex-wrap: wrap;
+    align-items: center;
+    text-align: center;
+    margin-top: 50px;
+}
+.links {
+    text-align: center;
+    margin-top: 20px;
+    padding: 20px;
+    border: 1px solid black;
+    border-width: 2px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+    max-width: 320px;
+}
+a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+.links:hover{
+    background-color: blue;
+}
